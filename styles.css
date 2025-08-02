@@ -14,16 +14,13 @@ body {
 }
 
 h1 {
-    font-size: 27pt;
+    font-size: 24pt;
     font-weight: bolder;
     color: #4CAF50;
     /* Bright green title */
     text-align: center;
 
-    @media screen and (max-width: 700px) {
-        font-size: 22pt;
-        
-    }
+   
 }
 
 h2 {
