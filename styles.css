@@ -21,6 +21,14 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    font-size: 20pt;
+    font-weight: 600;
+    color: #2e7d32;
+    /* Darker green subtitle */
+    text-align: center;
+}
+
 p {
     font-weight: 300;
     color: #2f4f2f;
