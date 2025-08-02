@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap');
+
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background: linear-gradient(135deg, #d0f0c0, #b2e6a6, #e6ffe6);
+    color: #444;
+}
+
+h1 {
+    font-size: 27pt;
+    font-weight: bolder;
+    color: #4CAF50;
+    /* Bright green title */
+    text-align: center;
+}
+
+p {
+    font-weight: 300;
+    color: #2f4f2f;
+    /* Dark olive green text */
+}
+
+.warning-content {
+    width: 90%;
+    max-width: 700px;
+    padding: 20px;
+    background: linear-gradient(to bottom right, #f0fff0, #d6f5d6);
+    border: 2px solid #b2e6a6;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 128, 0, 0.1);
+
+
+}
+
+.social-links i {
+    font-size: 30px;
+    color: #4CAF50;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.social-links i:hover {
+    color: #2e7d32;
+}
+
+a {
+    color: #388e3c;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.contact-info {
+    padding: 10px;
+    text-align: center;
+}
+
+.contact-info a {
+    text-align: left;
+    color: #2e7d32;
+    font-size: 18px;
+}
+
+.contact-info i {
+    padding: 0;
+    margin: 0;
+    color: #4CAF50;
+    font-size: 20px;
+
+}
+
+.footer {
+    margin-top: 20px;
+    color: #6e886e;
+    font-size: 14px;
+}
+
+.logo-container {
+    padding: 30px;
+}
+
+.gear-icon {
+    padding: 20px;
+}
