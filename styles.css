@@ -19,6 +19,11 @@ h1 {
     color: #4CAF50;
     /* Bright green title */
     text-align: center;
+
+    @media screen and (max-width: 700px) {
+        font-size: 22pt;
+        
+    }
 }
 
 h2 {
